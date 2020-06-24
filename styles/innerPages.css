@@ -1,0 +1,39 @@
+.pageContainer {
+	display: grid;
+	grid-template-columns: 5fr 1fr;
+	margin: 2.5rem 0;
+	grid-gap: 2rem;
+}
+
+.pageContainer > *:first-child {
+	grid-row: 1 / span 4;
+}
+
+.pageContainer .card h1 {
+	font-size: 3rem;
+}
+
+.pageContainer .card p {
+	font-size: 1.7rem;
+}
+
+.pageContainer aside.card p {
+	font-size: 1.2rem;
+}
+
+#article .meta {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #eee;
+	padding: 0.75rem;
+}
+
+#article .meta div p {
+	font-size: 1.3rem;
+	margin: 0;
+}
+
+#article .meta .category {
+	margin: 0.3rem 0 0 0;
+}
